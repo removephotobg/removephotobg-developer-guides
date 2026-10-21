@@ -1,0 +1,18 @@
+{
+  "name": "removephotobg-developer-guides",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "build": "node builder/build.mjs .",
+    "validate": "node builder/validate.mjs ."
+  },
+  "dependencies": {
+    "marked": "16.4.0",
+    "sanitize-html": "2.17.0",
+    "highlight.js": "11.11.1"
+  }
+}
