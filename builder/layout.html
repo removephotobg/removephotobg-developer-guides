@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" data-theme="{{theme}}">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title><meta name="description" content="{{description}}"><meta name="robots" content="{{robots}}">
+<link rel="canonical" href="{{canonical}}"><link rel="icon" type="image/svg+xml" href="{{base}}assets/mark.svg">
+<link rel="alternate" type="application/rss+xml" title="{{siteTitle}}" href="{{base}}rss.xml">
+<meta property="og:title" content="{{ogTitle}}"><meta property="og:description" content="{{description}}"><meta property="og:url" content="{{canonical}}"><meta property="og:type" content="{{ogType}}"><meta property="og:site_name" content="{{siteTitle}}"><meta property="og:image" content="{{base}}assets/social.png">
+<meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#142c3a">
+<link rel="stylesheet" href="{{base}}assets/style.css">{{structured}}
+<script src="{{base}}assets/search.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><a class="brand" href="{{base}}"><img src="{{base}}assets/mark.svg" alt="" width="32" height="32"><span>{{siteTitle}}</span></a><nav aria-label="Main navigation"><a href="{{base}}guides/">Guides</a><a href="{{base}}categories/">Categories</a><a href="{{base}}about/">About</a><a class="rss" href="{{base}}rss.xml">RSS ↗</a></nav></header>
+<div class="searchbar"><form role="search" action="{{base}}guides/" method="get"><label for="q">Find a guide</label><input id="q" name="q" type="search" placeholder="Search a topic, tool or technique"><button>Search</button></form><span>Image engineering, explained carefully.</span></div>
+<main id="main">{{body}}</main>
+<footer><a class="brand" href="{{base}}">{{siteTitle}}</a><p>Practical notes for people building image workflows.</p><div><a href="{{base}}about/">About</a><a href="{{base}}tags/">Tags</a><a href="{{base}}sitemap.xml">Sitemap</a><a href="{{base}}rss.xml">RSS</a></div><small>Examples are educational. Validate them for your own environment.</small></footer>
+</body></html>
